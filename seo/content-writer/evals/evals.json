@@ -1,0 +1,53 @@
+{
+  "skill_name": "content-writer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Write a blog post for our client 1906 Newhighs (cannabis brand) targeting the keyword 'best cannabis for focus'. Their existing content sits at 1906newhighs.com. Aim for AI Overview citation within 6 weeks.",
+      "expected_output": "A complete Mentionstack delivery: full brief presented first (hypothesis, target keywords w/ DataForSEO volume, target LLMs, expected outcome, outline, outbound sources, interlinks), approval gate held before drafting. Draft includes empathetic 2-sentence opener, 1500-2500 words, 1st/3rd person mix, live-search cited sources, JSON-LD Article schema, blacklist passes.",
+      "files": [],
+      "expectations": [
+        "Brief is presented BEFORE any drafting and explicitly waits for approval",
+        "Brief includes hypothesis, target keywords with DataForSEO search volume, target LLMs, expected outcome, outline, outbound source candidates, internal interlinks",
+        "Research script (scripts/research.py) is invoked for the keyword",
+        "Cannabis-specific compliance considerations surfaced (regulated claims, do-not-mention list)",
+        "First two sentences are empathetic and relatable, not throat-clearing",
+        "No em dashes anywhere in the draft",
+        "blacklist_check.py is invoked and passes before delivery",
+        "Output includes Title tag under 60 chars, meta description 120-160 chars, URL slug, JSON-LD Article schema, cited sources block with Title/Publisher/Date/URL, interlink plan, publishing checklist"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Improve this landing page for our client Latico Leathers. Target keyword: 'handmade leather bags'. Current page is thin: 'We make leather bags. Browse our collection.' Goal is to compete in Google AI Overview for the keyword.",
+      "expected_output": "Identifies the existing page as thin content, presents a Mentionstack brief explaining the gap, gets approval, then drafts a rewrite that includes craftsmanship E-E-A-T signals, comparison to mass-produced alternatives, social proof, and AI-Overview-friendly structure (FAQ, summarized core claims early). Passes blacklist.",
+      "files": [],
+      "expectations": [
+        "Acknowledges the existing page is thin and explains specifically why it cannot rank or be cited",
+        "Brief is presented before any rewriting and waits for approval",
+        "Brief target LLMs explicitly include Google AI Overview",
+        "Outline has FAQ section to maximize AI Overview citation surface",
+        "Rewrite includes E-E-A-T signals (craftsmanship details, materials sourcing, years of experience, specific techniques)",
+        "Internal interlinks reference Latico's other pages (collections, about, care guide)",
+        "Final output is meaningfully longer and more specific than the original",
+        "blacklist_check.py passes — no banned AI-tell words"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Heatmap.com client wants a comparison post: 'click maps vs heatmaps'. We want to push toward heatmaps as the higher-value tool. Heatmap's CTA is a free trial signup.",
+      "expected_output": "A comparison-format brief with both options presented fairly but data-led toward heatmaps. Approval gate. Draft includes a comparison table, fair pros/cons for both, data-driven argument for heatmaps in specific scenarios, conversion-oriented CTA. Targets commercial investigation intent.",
+      "files": [],
+      "expectations": [
+        "Brief explicitly addresses commercial investigation intent",
+        "Outline includes a comparison structure (table or side-by-side sections)",
+        "Both click maps and heatmaps presented fairly — not a one-sided pitch",
+        "Heatmap's positioning is supported by specific data points (use cases, conversion lift, depth of insight)",
+        "CTA flows naturally from the content toward Heatmap's free trial",
+        "Internal interlinks point to Heatmap's other pages (case studies, pricing, docs)",
+        "First two sentences are empathetic — drop the reader into a CRO problem they recognize",
+        "blacklist_check.py passes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+# Mentionstack content blacklist
+# One term per line. Lines starting with # are comments.
+# Single-word entries match as case-insensitive whole words.
+# Multi-word and hyphenated entries match as case-insensitive substrings.
+
+# === Connectives that smell like LLM ===
+Accordingly
+Additionally
+Arguably
+Certainly
+Consequently
+Hence
+However
+Indeed
+Moreover
+Nevertheless
+Nonetheless
+Notwithstanding
+Thus
+Undoubtedly
+Furthermore
+Therefore
+Thereby
+Therein
+Thereof
+Whilst
+Herein
+Heretofore
+
+# === AI-tell adjectives ===
+Adept
+Commendable
+Dynamic
+Efficient
+Ever-evolving
+Exciting
+Exemplary
+Innovative
+Invaluable
+Robust
+Seamless
+Synergistic
+Thought-provoking
+Transformative
+Utmost
+Vibrant
+Vital
+Captivating
+Burgeoning
+Groundbreaking
+Profound
+Notable
+Pervasive
+Pivotal
+Multifaceted
+Nuanced
+Numerous
+Remarkable
+Significant
+Substantial
+Undeniable
+Unparalleled
+Cutting-edge
+State-of-the-art
+Next-generation
+Future-proof
+Mission-critical
+Paramount
+Crucial
+Critical
+Essential
+Fundamental
+Holistic
+Impactful
+Manifold
+Granular
+
+# === AI-tell nouns ===
+Efficiency
+Innovation
+Institution
+Integration
+Implementation
+Landscape
+Optimization
+Realm
+Tapestry
+Transformation
+Bandwidth
+Complexity
+Expertise
+Iteration
+Kaleidoscope
+Latency
+Linchpin
+Milestone
+Paradigm
+Plethora
+Synergy
+Throughput
+Touchpoint
+Influencers
+Stakeholders
+Deliverables
+Offerings
+Roadmap
+Sustainability
+
+# === AI-tell verbs ===
+Aligns
+Augment
+Delve
+Embark
+Facilitate
+Maximize
+Underscores
+Utilize
+Amplify
+Conceptualize
+Craft
+Drive
+Elevate
+Empower
+Enable
+Enhance
+Enhancing
+Entails
+Excels
+Explore
+Foster
+Fostering
+Glean
+Grasp
+Hinder
+Leverage
+Optimize
+Promote
+Recognize
+Resonate
+Showcasing
+Streamline
+Strive
+Tailor
+Thrive
+Unleash
+Unlock
+
+# === Phrases — empty connectives ===
+A testament to
+In conclusion
+In summary
+It's important to note
+It's important to consider
+It's worth noting that
+On the contrary
+This is not an exhaustive list
+At the end of the day
+At length
+Broadly speaking
+Generally speaking
+Going forward
+Moving forward
+That being said
+Whilst it is true
+Specifically speaking
+Simply put
+
+# === Phrases — corporate speak ===
+A journey of
+A multitude of
+A plethora of
+Actionable insights
+Adoption rate
+Aforementioned
+AI-powered
+Ample opportunities
+As a result
+As such
+Based on the information provided
+Best practices
+Blockchain-enabled
+Brand awareness
+Cannot be overstated
+Capacity building
+Change management
+Cloud-based
+Cognizant
+Collaborative environment
+Competitive landscape
+Continuous improvement
+Corporate social responsibility
+Cost optimization
+Customer loyalty
+Customer satisfaction
+Customer-centric
+Data-driven
+Decision-makers
+Deep dive
+Deep dive into
+Deep understanding
+Delve into
+Delved
+Delving
+Delving into the intricacies of
+Demonstrates significant
+Deployment plan
+Digital realm
+Digital transformation
+Disruptive innovation
+Domain expertise
+Driven approach
+Driving innovation
+Dynamic environment
+Embark on a journey
+Embark on a voyage
+Embarked
+Emerging technologies
+Encountered hurdles
+Enlightening
+Enriches
+Entrenched
+Epicenter
+Esteemed
+Ethical considerations
+Flourishing
+Foster innovation
+Fresh perspectives
+From inception to execution
+Fundamentally
+Game changer
+Game-changer
+Given that
+Golden ticket
+Governance framework
+Granular detail
+Granular level
+Granularly
+Growing recognition
+High-level
+Holistically
+Implementation strategy
+Implications
+Important to consider
+In a sea of
+In brief
+In detail
+In effect
+In essence
+In general
+In light of
+In other words
+In particular
+In practice
+In terms of
+In the dynamic world of
+In the realm of
+In theory
+In today's rapidly evolving market
+In today's world
+Industry best practices
+Insights into
+Issue resolution
+It is important to note
+It is worth noting
+It's important to remember
+Key takeaways
+Knowledge transfer
+Low-level
+Market penetration
+Market share
+Market trends
+Navigating the landscape
+Navigating the complexities of
+New heights
+Offboarding
+Offer a comprehensive
+On the ascent to
+On the cutting edge
+On the other hand
+Onboarding
+Operational efficiency
+Operational excellence
+Pain point
+Paradigm shift
+Particularly in areas
+Performance optimization
+Preemptively
+Problem solving
+Process optimization
+Profitability
+Pronged
+Quality assurance
+Quality control
+Rapidly evolving
+Reaching new heights
+Regulatory compliance
+Relentless
+Resource allocation
+Resource optimization
+Revenue growth
+Risk mitigation
+Root cause analysis
+Scalable
+Shed light
+Shedding light on
+Significantly contributes
+Solution development
+Strategic alignment
+Strong presence
+Subject matter experts
+Substantially
+Synergistically
+Systemic
+That being said
+The future of
+The linchpin of
+The next frontier
+The power of
+The road ahead
+Thought leaders
+Thought leadership
+Thriving
+Time optimization
+To clarify
+To demonstrate
+To elevate
+To elucidate
+To emphasize
+To empower
+To enhance
+To enrich
+To exemplify
+To furnish
+To highlight
+To illustrate
+To provide
+To reiterate
+To shed light on
+To showcase
+To summarize
+To thrive
+To underscore
+To unleash
+To unlock
+Transforming the way
+Treasure trove
+Ultimately
+Uncharted waters
+Understanding of your unique
+User engagement
+User experience
+User feedback
+User interface
+Value proposition
+Value-added
+Well-crafted
+Widely recognized
+With a keen eye on
+With regards to
+
+# === Acronyms / jargon ===
+KPIs
+MVP
+POC
+ROI
+SLA
+TCO
+Scrum
+Sprint
+Agile
+Conducting
+Considerable
+Core
+Folks
+For example
+For instance
+Foray
+Namely
+Tertiary
+Various
+Vast
+Valuable
+Uptime
+Downtime

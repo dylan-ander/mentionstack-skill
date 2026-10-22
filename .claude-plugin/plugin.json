@@ -1,0 +1,21 @@
+{
+  "name": "mentionstack",
+  "version": "0.2.0",
+  "description": "GEO/AEO/SEO toolkit for Claude. DataForSEO-driven content production, keyword research, schema markup, and SEO audits. Every content deliverable runs through a scientific brief: hypothesis, target keywords, target LLMs, expected outcome, approval gate.",
+  "author": {
+    "name": "Dylan Ander",
+    "url": "https://github.com/dylanander"
+  },
+  "skills": [
+    "./seo/seo-analysis",
+    "./seo/content-writer",
+    "./seo/keyword-research",
+    "./seo/meta-tags-optimizer",
+    "./seo/schema-markup-generator",
+    "./seo/setup-cms",
+    "./gemini"
+  ],
+  "homepage": "https://github.com/dylanander/mentionstack-skill",
+  "repository": "https://github.com/dylanander/mentionstack-skill",
+  "license": "MIT"
+}

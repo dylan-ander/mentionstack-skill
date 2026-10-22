@@ -1,0 +1,24 @@
+{
+  "name": "dylanander",
+  "owner": {
+    "name": "Dylan Ander",
+    "url": "https://github.com/dylanander"
+  },
+  "metadata": {
+    "description": "Dylan Ander's open Claude Code plugins.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "mentionstack",
+      "source": "./",
+      "description": "GEO/AEO/SEO toolkit for Claude. DataForSEO-driven content briefs and drafts, keyword research, schema markup, meta tags, and SEO audits.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Dylan Ander",
+        "url": "https://github.com/dylanander"
+      },
+      "category": "marketing"
+    }
+  ]
+}
